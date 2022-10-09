@@ -1,3 +1,58 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+.paticka{
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0 ;
+    
+}
+ .foto-hlavicka{
+    width: 200px;
+    border-radius: 50%;
+   
+}
+div{
+    text-align: center;
+    background-color: thistle;
+    
+}
+.omne{
+    text-align: center;
+   
+}
+.foto-Rodina{
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.foto-zamestnani{
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.foto-kontakt{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+body{
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+      }
+
+    section rodina,
+    zamestnani,
+    kontakt{
+        padding: 50px 15%;
+        overflow: auto;
+          }
