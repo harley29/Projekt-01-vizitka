@@ -12,6 +12,7 @@ html { box-sizing: border-box; }
  .foto-hlavicka{
     width: 200px;
     border-radius: 50%;
+    border: 2px solid darkviolet;
    
 }
 div{
@@ -21,25 +22,34 @@ div{
 }
 .omne{
     text-align: center;
+  
+ 
    
 }
 .foto-Rodina{
-    width: 350px;
+    width: 400px;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
+    border-radius: 10%;
+    border: 2px solid darkviolet;
 }
 .foto-zamestnani{
-    width: 300px;
+    width: 400px;
     float: right;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    border-radius: 10%;
+    border: 2px solid darkviolet;
 }
 .foto-kontakt{
     width: 200px;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
+    border-radius: 10%;
+    border: 2px solid darkviolet;
 }
 body{
     color: #282425;
@@ -50,9 +60,11 @@ body{
     margin: 0;
       }
 
-    section rodina,
-    zamestnani,
-    kontakt{
-        padding: 50px 15%;
+    .Rodina,
+    .Kontakt{
+        padding: 30px 10%;
         overflow: auto;
+        margin-left: 50px;
+        margin-right: 50px;
           }
+
